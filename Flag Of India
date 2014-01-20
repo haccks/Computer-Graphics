@@ -55,7 +55,6 @@ int main()
         floodfill(200,150,WHITE);
         delay(5);
     }
-
     getch();
     closegraph();
     return 0;
