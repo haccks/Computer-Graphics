@@ -37,7 +37,6 @@ int main()
         setcolor(BLUE);
         x = 50 * cos((theta) * val);
         y = 50 * sin((theta) * val);
-        printf("%f\t%f\n", x, y);
         setlinestyle(0,0,3);
         line(200,150, x+200,y+150);
 
